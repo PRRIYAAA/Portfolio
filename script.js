@@ -1,4 +1,3 @@
-
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -306,4 +305,14 @@ particleStyle.textContent = `
 `;
 document.head.appendChild(particleStyle);
 
+// Update year in footer
+document.addEventListener("DOMContentLoaded", function() {
+    const yearSpan = document.getElementById("year");
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+    }
+});
+
 console.log('Portfolio script loaded successfully!');
+
+
