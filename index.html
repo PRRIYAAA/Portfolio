@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -37,6 +37,9 @@
                     <a href="#internship" class="nav-link">Experience</a>
                 </li>
                 <li class="nav-item">
+                    <a href="#conference" class="nav-link">Conference</a>
+                </li>
+                <li class="nav-item">
                     <a href="#certifications" class="nav-link">Certifications</a>
                 </li>
                 <li class="nav-item">
@@ -71,7 +74,7 @@
                 </p>
                 <div class="hero-buttons d-flex gap-3">
                     <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                    <a href="PRIYADHARSHINI K - Resume.pdf" target = "_blank" class="btn btn-secondary">Download Resume</a>
+                    <a href="Priyadharshini-K Resume.pdf" target = "_blank" class="btn btn-secondary">Download Resume</a>
 
                 </div>
             </div>
@@ -387,12 +390,13 @@
                     </div>
                 </div>
 
-                <!-- <div class="project-card">
+                <div class="project-card">
                     <div class="project-image">
                         <img src="images/voice.png" alt="design"p>
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="https://github.com/PRRIYAAA/Jarvis-Chatbot.git" target = "_blank" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="https://github.com/PRRIYAAA/Voice-Based-Email" target = "_blank" class="project-link"><i class="fab fa-github"></i></a>
+                                
                             </div>
                         </div>
                     </div>
@@ -400,14 +404,138 @@
                         <h3>Voice Based Email System for the Blind</h3>
                         <p>A voice-based email system developed in Python to help visually impaired users send, receive, and manage emails hands-free using speech commands.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            
+                            <span class="tech-tag">HTML, CSS , JS</span>
+                            <span class="tech-tag">Flask</span>
+                            <a href="https://youtu.be/QMBk3LGRqPU?si=l09lXPXovXu90mCK" target="_blank" class="project-link">SEND MAIL <i class="fab fa-youtube"></i></a>
+                            <button class="btn-like" aria-label="Like Send Mail"><i class="fas fa-heart"></i></button>
+                            <a href="https://www.youtube.com/watch?si=HgkFfPVWV_eq_GF1&v=Hr4mYpfQ8aU&feature=youtu.be" target="_blank" class="project-link">READ MAIL <i class="fab fa-youtube"></i></a>
+                            <button class="btn-like" aria-label="Like Read Mail"><i class="fas fa-heart"></i></button>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+<!-- Conference Section -->
+<section id="conference" class="conference">
+    <div class="container">
+        <h2 class="section-title">Conference</h2>
+        <div class="conference-list">
+            <div class="conference-item">
+                
+                <!-- Left side: Content -->
+                <div class="conference-details">
+                    <h3>4th National Conference On Advancement in Artificial Intelligence and Emerging Trends</h3>
+                    <h4>Presented Paper: <em>"Smart Alerts - Personalized Deal Finder, powered by AI, Geo-fencing, and Real-time Push Notifications"</em></h4>
+                    <span class="conference-date">📅 September 2025</span>
+                    <p>
+                        Attended and presented a research paper at the 4th National Conference on Advancement in Artificial Intelligence and Emerging Trends, 
+                        held at <strong>Sri Sairam Engineering College</strong>.  
+                        The conference focused on the latest advancements in AI and emerging technologies, 
+                        providing a platform for researchers and practitioners to share their insights and innovations.
+                    </p>
+                    <a href="Certificate.jpg" target="_blank" class="btn-certificate">
+                        🎓 View Certificate
+                    </a>
+                </div>
+
+                <!-- Right side: Poster -->
+                <div class="conference-image">
+                    <a href="Conference.jpg" target="_blank">
+                        <img src="Conference.jpg" alt="Conference Poster" />
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CSS Styling -->
+<style>
+    .conference {
+        padding: 60px 20px;
+        background: #f9fafc;
+    }
+    .conference .section-title {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 40px;
+        color: #222;
+        font-weight: 700;
+    }
+    .conference-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        flex-wrap: wrap;
+        background: #fff;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .conference-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    }
+    .conference-details {
+        flex: 1;
+        min-width: 300px;
+    }
+    .conference-details h3 {
+        font-size: 22px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    .conference-details h4 {
+        font-size: 18px;
+        color: #007BFF;
+        margin-bottom: 10px;
+    }
+    .conference-date {
+        display: inline-block;
+        margin-bottom: 15px;
+        font-size: 14px;
+        color: #555;
+    }
+    .conference-details p {
+        font-size: 16px;
+        color: #444;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    .btn-certificate {
+        display: inline-block;
+        padding: 10px 18px;
+        background: linear-gradient(135deg, #007BFF, #0056d6);
+        color: #fff;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+        transition: background 0.3s ease;
+    }
+    .btn-certificate:hover {
+        background: linear-gradient(135deg, #0056d6, #003c9e);
+    }
+    .conference-image {
+        flex: 1;
+        min-width: 280px;
+        text-align: center;
+    }
+    .conference-image img {
+        max-width: 50%;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        transition: transform 0.3s ease;
+    }
+    .conference-image img:hover {
+        transform: scale(1.05);
+    }
+</style>
 
 
 
